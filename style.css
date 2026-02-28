@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+}
+#titulo-principal{
+    color: brown;
+}
+.destaque{
+    background-color: yellow;
+}
+div p{
+    color: pink;
+}
+div > p{
+    color: peru;
+}
+input[type="email"]{
+    border: 2px solid red;
+}
+p:hover{
+    background-color: aquamarine;
+    font-size: 20px;
+}
+li:first-child{
+    font-size: 10px;
+}
+p::first-letter{
+    font-size: 30px;
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+}
