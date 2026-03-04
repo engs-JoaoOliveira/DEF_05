@@ -1,7 +1,15 @@
-
+p{
+    font-style: italic;
+}
 
 #titulo-principal{
     color: rgb(0, 0, 126);
+}
+.destaque{
+    background-color: yellow;
+}
+input[type="password"]{
+    border: 50px blue;
 }
 .importante{
     color: red;
